@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en' ng-app="randomColor" ng-controller="ColorController" ng-init="init();">
+
+<head>
+  <title>Random Background Color</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script type="text/javascript" src='js/jquery.js'></script>
+  <script type="text/javascript" src='js/bootstrap.min.js'></script>
+  <script type="text/javascript" src='js/angular.min.js'></script>
+  <script type="text/javascript" src='js/controllers.js'></script>
+  <script type="text/javascript" src='js/modules.js'></script>
+</head>
+
+<body ng-style='bgColor'>
+  <div class='container'>
+    <h2>Choose a Background Color</h2>
+    <a class='btn btn-primary' ng-click="newColor();">New Color</a>
+  </div>
+  <!-- container -->
+</body>
+
+</html>
